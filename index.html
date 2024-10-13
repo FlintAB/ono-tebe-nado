@@ -29,7 +29,7 @@
         <img
           src="./images/logo-black.svg"
           alt="Логотип"
-          class="header__logo_image"
+          class="header__logo-image"
         />
       </a>
 
@@ -42,22 +42,22 @@
     <main class="main">
       <section class="cover">
         <h1 class="cover__title">
-          <span class="cover__title_word cover__title_word--left">
-            <span>О</span><span class="letter-spacing-extended">НО</span>
+          <span class="cover__title-word cover__title-word--left">
+            <span>о</span><span class="letter-spacing-extended">но</span>
           </span>
-          <span class="cover__title_word cover__title_word--center">
-            <span>ТЕ</span><span class="letter-spacing-extended">БЕ</span>
+          <span class="cover__title-word cover__title-word--center">
+            <span>те</span><span class="letter-spacing-extended">бе</span>
           </span>
-          <span class="cover__title_word cover__title_word--right">
-            <span class="letter-spacing-extended">Н</span><span>АД</span
-            ><span class="no-letter-spacing">О</span>
+          <span class="cover__title-word cover__title-word--right">
+            <span class="letter-spacing-extended">н</span><span>ад</span
+            ><span class="no-letter-spacing">о</span>
           </span>
         </h1>
         <div class="cover__promo">
-          <p class="cover__promo_text">
+          <p class="cover__promo-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button type="button" class="cover__promo_btn">СДЕЛАТЬ СТАВКУ</button>
+          <button type="button" class="cover__promo-btn">сделать ставку</button>
         </div>
       </section>
 
@@ -68,10 +68,10 @@
           <li class="lots__cards-list-item">
             <a class="lots__card-link">
               <article class="lots__card lots__card--films">
-                <h3 class="lots__card_title">
+                <h3 class="lots__card-title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
-                <p class="lots__card_description">
+                <p class="lots__card-description">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
@@ -83,10 +83,10 @@
           <li class="lots__cards-list-item">
             <a class="lots__card-link">
               <article class="lots__card lots__card--book">
-                <h3 class="lots__card_title">
+                <h3 class="lots__card-title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
-                <p class="lots__card_description">
+                <p class="lots__card-description">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
@@ -101,10 +101,10 @@
           <li class="lots__cards-list-item">
             <a class="lots__card-link">
               <article class="lots__card lots__card--painting">
-                <h3 class="lots__card_title">
+                <h3 class="lots__card-title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
-                <p class="lots__card_description">
+                <p class="lots__card-description">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков... Сколько бы вы на такое поставили, если бы не знали,
@@ -123,21 +123,21 @@
           <img
             src="./images/logo-white.svg"
             alt="Логотип (белый)"
-            class="about__logo_img"
+            class="about__logo-img"
           />
         </div>
 
         <div class="about__description">
-          <h2 class="about__description_title">Об аукционе</h2>
-          <div class="about__description_text">
-            <p class="about__description_text_item">
+          <h2 class="about__description-title">Об аукционе</h2>
+          <div class="about__description-text">
+            <p class="about__description-text-item">
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
               на один аукцион. Потому что кому нужен дневник девочки-подростка
               или картина, которую может нарисовать даже ребёнок? Кому нужны все
               эти странные вещи, созданные любителями?
             </p>
-            <p class="about__description_text_item">
+            <p class="about__description-text-item">
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
               непонятые. Когда-то они казались просто неудачными. Но, несмотря
@@ -175,27 +175,35 @@
       </nav>
 
       <div class="footer__socials">
-        <a href="#" target="_blank" class="footer__social_link">
-          <img
-            src="./images/yt.svg"
-            alt="YouTube"
-            class="footer__social_logo"
-          />
-        </a>
-        <a href="#" target="_blank" class="footer__social_link">
-          <img
-            src="./images/vk.svg"
-            alt="VKontakte"
-            class="footer__social_logo"
-          />
-        </a>
-        <a href="#" target="_blank" class="footer__social_link">
-          <img
-            src="./images/pinterest.svg"
-            alt="Pinterest"
-            class="footer__social_logo"
-          />
-        </a>
+        <ul class="footer__social-list-link">
+          <li>
+            <a href="#" target="_blank" class="footer__social-link">
+            <img
+              src="./images/yt.svg"
+              alt="YouTube"
+              class="footer__social-logo"
+            />
+          </a>
+        </li>
+          <li>
+            <a href="#" target="_blank" class="footer__social-link">
+              <img
+                src="./images/vk.svg"
+                alt="VKontakte"
+                class="footer__social-logo"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="footer__social-link">
+              <img
+                src="./images/pinterest.svg"
+                alt="Pinterest"
+                class="footer__social-logo"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
